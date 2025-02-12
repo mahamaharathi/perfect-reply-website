@@ -1,11 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './LandingPage';
-import PolicyPage from './PolicyPage';
-
-// Import your markdown content
-import privacyContent from './privacy.md';
-import termsContent from './terms.md';
-import refundContent from './refund.md';
+import PolicyPage from './components/PolicyPage';
+import { privacyContent, termsContent, refundContent } from './policies';
 
 function App() {
   return (
