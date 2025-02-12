@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './LandingPage';
-import PolicyPage from './components/PolicyPage';
+import PolicyPage from './PolicyPage';
 import { privacyContent, termsContent, refundContent } from './policies';
 
 function App() {
