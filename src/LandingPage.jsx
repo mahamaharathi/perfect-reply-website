@@ -35,7 +35,7 @@ const LandingPage = () => {
             <section className="container mx-auto px-4 py-16">
                 <div className="bg-white rounded-xl shadow-lg p-6 max-w-2xl mx-auto">
                     <img
-                        src="/screenshot.svg"
+                        src="/public/screenshot.svg"
                         alt="Perfect Reply Demo"
                         className="w-full rounded-lg shadow-md"
                     />
@@ -95,7 +95,7 @@ const LandingPage = () => {
                     <h2 className="text-3xl font-bold text-center mb-12">Seamless Integration with Your Workflow</h2>
                     <div className="grid md:grid-cols-2 gap-8">
                         <div className="bg-white rounded-lg p-6 shadow-md">
-                            <img src="/slack-mock.svg" alt="Slack Integration" className="mb-4 rounded" />
+                            <img src="./slack-mock.svg" alt="Slack Integration" className="mb-4 rounded" />
                             <h3 className="text-xl font-semibold mb-2">Slack Integration</h3>
                             <p className="text-gray-600">Perfect your team communications, channel messages, and direct responses in Slack with just one click.</p>
                         </div>
