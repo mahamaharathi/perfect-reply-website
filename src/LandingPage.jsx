@@ -1,5 +1,6 @@
 import React from 'react';
 import { MessageSquare, Shield, Zap, Clock, Users, Lock } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
     return (
@@ -185,9 +186,9 @@ const LandingPage = () => {
                 <div className="container mx-auto px-4 text-center text-gray-600">
                     <p>© {new Date().getFullYear()} Perfect Reply. All rights reserved.</p>
                     <div className="mt-4 space-x-4">
-                        <a href="/privacy" className="hover:text-blue-600">Privacy Policy</a>
-                        <a href="/terms" className="hover:text-blue-600">Terms of Service</a>
-                        <a href="/refund" className="hover:text-blue-600">Refund Policy</a>
+                        <Link to="/privacy" className="hover:text-blue-600">Privacy Policy</Link>
+                        <Link to="/terms" className="hover:text-blue-600">Terms of Service</Link>
+                        <Link to="/refund" className="hover:text-blue-600">Refund Policy</Link>
                         <a href="https://github.com/yourusername/perfect-reply" className="hover:text-blue-600">GitHub</a>
                     </div>
                 </div>
