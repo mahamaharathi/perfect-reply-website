@@ -1,11 +1,15 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './LandingPage';
 import PolicyPage from './PolicyPage';
 import { privacyContent, termsContent, refundContent } from './policies';
 
 function App() {
+  // Get the base URL from Vite's env
+  const baseUrl = import.meta.env.BASE_URL;
+
   return (
-    <Router>
+    <Router basename={baseUrl}> {/* Add basename here */}
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/privacy" element={<PolicyPage title="Privacy Policy" content={privacyContent} />} />

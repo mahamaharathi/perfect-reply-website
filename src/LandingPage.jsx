@@ -35,7 +35,7 @@ const LandingPage = () => {
             <section className="container mx-auto px-4 py-16">
                 <div className="bg-white rounded-xl shadow-lg p-6 max-w-2xl mx-auto">
                     <img
-                        src="/screenshot.png"
+                        src="/screenshot.svg"
                         alt="Perfect Reply Demo"
                         className="w-full rounded-lg shadow-md"
                     />
@@ -182,16 +182,16 @@ const LandingPage = () => {
 
             {/* Footer */}
             <footer className="bg-gray-50 py-8">
-  <div className="container mx-auto px-4 text-center text-gray-600">
-    <p>© {new Date().getFullYear()} Perfect Reply. All rights reserved.</p>
-    <div className="mt-4 space-x-4">
-      <a href="/privacy" className="hover:text-blue-600">Privacy Policy</a>
-      <a href="/terms" className="hover:text-blue-600">Terms of Service</a>
-      <a href="/refund" className="hover:text-blue-600">Refund Policy</a>
-      <a href="https://github.com/yourusername/perfect-reply" className="hover:text-blue-600">GitHub</a>
-    </div>
-  </div>
-</footer>
+                <div className="container mx-auto px-4 text-center text-gray-600">
+                    <p>© {new Date().getFullYear()} Perfect Reply. All rights reserved.</p>
+                    <div className="mt-4 space-x-4">
+                        <a href="/privacy" className="hover:text-blue-600">Privacy Policy</a>
+                        <a href="/terms" className="hover:text-blue-600">Terms of Service</a>
+                        <a href="/refund" className="hover:text-blue-600">Refund Policy</a>
+                        <a href="https://github.com/yourusername/perfect-reply" className="hover:text-blue-600">GitHub</a>
+                    </div>
+                </div>
+            </footer>
         </div>
     );
 };
