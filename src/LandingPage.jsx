@@ -35,7 +35,7 @@ const LandingPage = () => {
             <section className="container mx-auto px-4 py-16">
                 <div className="bg-white rounded-xl shadow-lg p-6 max-w-2xl mx-auto">
                     <img
-                        src="/public/screenshot.svg"
+                        src="./screenshot.svg"
                         alt="Perfect Reply Demo"
                         className="w-full rounded-lg shadow-md"
                     />
@@ -100,7 +100,7 @@ const LandingPage = () => {
                             <p className="text-gray-600">Perfect your team communications, channel messages, and direct responses in Slack with just one click.</p>
                         </div>
                         <div className="bg-white rounded-lg p-6 shadow-md">
-                            <img src="/teams-mock.svg" alt="Teams Integration" className="mb-4 rounded" />
+                            <img src="./teams-mock.svg" alt="Teams Integration" className="mb-4 rounded" />
                             <h3 className="text-xl font-semibold mb-2">Microsoft Teams Integration</h3>
                             <p className="text-gray-600">Maintain professional communication in Microsoft Teams for all your business conversations.</p>
                         </div>
